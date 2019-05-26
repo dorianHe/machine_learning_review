@@ -41,4 +41,4 @@ According to the definition of $L_1$ and $L_2$ regularization, we know $||w||\_1
 Also based on the definition, $L_1$ introduces more sparsity.
 
 #### Example visualization of $L_1$ and $L_2$ regularization
-<img src="/images/L_1_regularization.png"  width="320" height="280"> <img src="/images/L_2_regularization.png"  width="320" height="260">
+<img src="./images/L_1_regularization.png"  width="320" height="280"> <img src="./images/L_2_regularization.png"  width="320" height="260">

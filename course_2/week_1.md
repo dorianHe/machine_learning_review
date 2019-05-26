@@ -6,7 +6,7 @@ Take-aways:
 
 * the dev and test set should come from the same distribution.
 
-* for a NN with high bias, it is promising to try (more parameters, i.e.):
+* for a NN with high bias, it is promising to try (with more parameters, i.e.):
 
    * to make the model deeper
     

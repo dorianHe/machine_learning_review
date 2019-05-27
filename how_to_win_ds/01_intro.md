@@ -1,5 +1,5 @@
-# Intro and recap
-## Take-aways
+# Week 1
+## Introduction & Recap
 * Competition mechanics
 
 	* To prevent overfitting of test set, organizers of Kaggle competition do:
@@ -36,7 +36,8 @@
 	
 	* Don’t overestimate role of hardware/software
 
-* Feature Preprocessing and Generation with Respect to Models
+## Feature Preprocessing and Generation with Respect to Models
+
 
 	* Feature preprocessing is necessary instrument you have to use to adapt data to your model. 
 	
@@ -63,5 +64,6 @@
 		* Prior knowledge
 		* Exploratory data analysis
 	
+## Final Project Description
 	
 

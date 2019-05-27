@@ -3,4 +3,4 @@ Notes about machine learning / deep learning, primarily based on Andrew Ng cours
 
 Our goal is to go through each course, extract key concepts and create a folder for each course.
 
-We will apply the mmethods to some kaggle data sets.
+We will apply the methods to some kaggle data sets.

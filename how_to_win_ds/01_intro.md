@@ -38,3 +38,30 @@
 
 * Feature Preprocessing and Generation with Respect to Models
 
+	* Feature preprocessing is necessary instrument you have to use to adapt data to your model. 
+	
+	* Feature generation is a very powerful technique which can aid you significantly in competitions and sometimes provide you the required edge.
+	
+	* Both feature preprocessing and feature generation depend on the model you are going to use.
+	
+	* In General case, we should use preprocessing to scale all features to one scale, so that their initial impact on the model will be roughly similar.
+	
+	* Numeric feature preprocessing (scaling and rank) is different for tree and non-tree models:
+		
+		* Tree-based models doesn’t depend on them
+		* Non-tree-based models hugely depend on them
+	
+	* Most often used preprocessings are:
+		
+		* MinMaxScaler - to [0,1]
+		* StandardScaler - to mean==0, std==1
+		* Rank - sets spaces between sorted values to be equal
+		* np.log(1+x) and np.sqrt(1+x)
+	
+	* Feature generation is powered by:
+	
+		* Prior knowledge
+		* Exploratory data analysis
+	
+	
+

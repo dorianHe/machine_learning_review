@@ -74,6 +74,16 @@
 	* One-hot encoding is often used for non-tree-based models
 	* Interactions of categorical features can help linear models and KNN
 	
-## Final Project Description
-	
+* For Datetime:
 
+	* Periodicity
+	* Time since row-independent/dependent event
+	* Difference between dates
+	
+* For Coordinates:
+
+	* Interesting places from train/test data or additional data
+	* Centers of clusters
+	* Aggregated statistics
+	
+## Final Project Description

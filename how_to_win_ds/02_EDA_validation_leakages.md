@@ -28,8 +28,8 @@ helpful functions can be:
 	* Plot (index vs feature statistics)
 # Validation
 ## Validation strategies
-* Holdout scheme
-* K-Fold scheme
+* Holdout scheme (huge datasest & K-Fold scores on each fold are roughly the same)
+* K-Fold scheme (Medium-sized dataset & scores on each fold differ noticeably)
 * LOO (Leave-One-Out) scheme
 
 ## Problem occuring during validation

@@ -65,6 +65,15 @@
 	* Prior knowledge
 	* Exploratory data analysis
 	
+* For categorical features:
+
+	* Values in ordinal features are sorted in some meaningful order
+	* Label encoding maps categories to numbers
+	* Frequency encoding maps categories to their frequencies
+	* Label and Frequency encodings are often used for tree-based models
+	* One-hot encoding is often used for non-tree-based models
+	* Interactions of categorical features can help linear models and KNN
+	
 ## Final Project Description
 	
 

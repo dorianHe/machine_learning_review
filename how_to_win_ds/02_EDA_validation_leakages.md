@@ -40,4 +40,8 @@ We should do extensive validation.
 * Average scores from different KFold splits.
 * Tune model on one split, evaluate score on the other.
 
+* Indication of an expeceted leaderboard shuffle
+    * Diferent public / private data or target distributions
+    * Little amount of training or / and testing data
+    * Most of the competitors have very similar scores
 # Data leakages

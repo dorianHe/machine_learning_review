@@ -85,5 +85,14 @@
 	* Interesting places from train/test data or additional data
 	* Centers of clusters
 	* Aggregated statistics
+
+* Handling missing values: 
+	
+	* The choice of method to fill NaN depends on the situation
+	* Usual way to deal with missing values is to replace them with -999, mean or median
+	* Missing values already can be replaced with something by organizers
+	* Binary feature “isnull” can be beneficial
+	* In general, avoid filling nans before feature generation
+	* Xgboost can handle NaN
 	
 ## Final Project Description

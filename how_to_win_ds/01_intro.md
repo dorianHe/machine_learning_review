@@ -100,7 +100,13 @@
 		* tf = 1 / x.sum(axis=1) [:,None]
 		* x = x * tf
 	2.  to boost more important features while decreasing the scale of useless ones, using inverse document frequency:
-		* idf = np.log(x.shape[0] / (x > 0).sum(0)) 
-		* x = x * idf
+		idf = np.log(x.shape[0] / (x > 0).sum(0)) 
+		x = x * idf
+		
+* Pipeline of applying bag of words:
+	
+	1. Preprocessing: Lowercase, stemming, lemmatization, stopwords
+	2. Bag of words: Ngrams can help to use local context
+	3. Postprocessing: TFiDF
 		
 ## Final Project Description

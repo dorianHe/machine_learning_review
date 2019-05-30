@@ -118,5 +118,21 @@
 		* Values in vector can be interpreted only in some cases
 		* The words with similar meaning often have similar embeddings
 	* Rule of thumb: usually, both Bag of Words and Word2vec approaches give quite different results and can be used together in your solution.
+	
+* Feature extraction from text and images
+	1. Texts
+		a. Preprocessing
+i. Lowercase, stemming, lemmarization, stopwords b.Bag of words
+i. Huge vectors
+ii. Ngrams can help to use local context
+iii. TFiDF can be of use as postprocessing
+c. Word2vec
+i. Relatively small vectors
+ii. Pretrained models
+2. Images
+a. Features can be extracted from different layers
+b. Careful choosing of pretrained network can help
+c. Finetuning allows to refine pretrained models
+d. Data augmentation can improve the model
 		
 ## Final Project Description

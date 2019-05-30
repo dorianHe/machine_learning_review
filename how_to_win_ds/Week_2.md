@@ -1,10 +1,10 @@
-# EDA
-## Building intuition about the data
+# Exploratory Data Analysis
+## Exploratory data analysis
 * Get domain knowledge
 * Check if the data is intuitive
 * Understand how the data was generated
 
-## Exploring anonymized data
+## EDA examples
 * Try to decode the features
 * Guess the feature types
 

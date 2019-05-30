@@ -122,14 +122,14 @@
 * Feature extraction from text and images
 	* Texts
 		* Preprocessing: 
-			i. Lowercase, stemming, lemmarization, stopwords 
+			1. Lowercase, stemming, lemmarization, stopwords 
 		* Bag of words
-			i. Huge vectors
-			ii. Ngrams can help to use local context
-			iii. TFiDF can be of use as postprocessing
+			1. Huge vectors
+			2. Ngrams can help to use local context
+			3. TFiDF can be of use as postprocessing
 		* Word2vec
-			i. Relatively small vectors
-			ii. Pretrained models
+			1. Relatively small vectors
+			2. Pretrained models
 	* Images
 		* Features can be extracted from different layers
 		* Careful choosing of pretrained network can help

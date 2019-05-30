@@ -108,5 +108,14 @@
 	1. Preprocessing: Lowercase, stemming, lemmatization, stopwords
 	2. Bag of words: Ngrams can help to use local context
 	3. Postprocessing: TFiDF
+	
+* BOW and w2v comparison
+	* Bag of words
+		* Very large vectors
+		* Meaning of each value in vector is known
+	* Word2vec
+		* Relatively small vectors
+		* Values in vector can be interpreted only in some cases
+		* The words with similar meaning often have similar embeddings
 		
 ## Final Project Description

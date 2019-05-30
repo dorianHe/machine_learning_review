@@ -119,7 +119,16 @@
 		* The words with similar meaning often have similar embeddings
 	* Rule of thumb: usually, both Bag of Words and Word2vec approaches give quite different results and can be used together in your solution.
 	
-* Feature extraction from text and images
+* Descriptors (i.e., outputs from inner layers) from later layers are better way to solve texts similar to one network was trained on. In contrary, descriptors from early layers have more text independent information. 
+
+* Fine-tuning (i.e.,  process of pre-trained model tuning), especially for small data sets, is usually better than training standalone model on descriptors or a training network from scratch: 
+	1. fine-tuning is better than training standalone model on descriptors because it allows to tune all networks parameters and thus extract more effective image representations.
+	2. fine-tuning is better than training network from scratch if we have too little data, or if the text we are solving is similar to the text model was trained on.
+
+* Adding such augmentations boost your score significantly. In general case, augmentation of images can include groups, rotations, and the noise and so on. Overall, this reduces over fitting and allows you to train more robust models with better results.
+	
+* Summary: feature extraction from text and images
+
 	* Texts
 		* Preprocessing: 
 			1. Lowercase, stemming, lemmarization, stopwords 
@@ -135,11 +144,5 @@
 		* Careful choosing of pretrained network can help
 		* Finetuning allows to refine pretrained models
 		* Data augmentation can improve the model
-
-* Descriptors (i.e., outputs from inner layers) from later layers are better way to solve texts similar to one network was trained on. In contrary, descriptors from early layers have more text independent information. 
-
-* Fine-tuning (i.e.,  process of pre-trained model tuning), especially for small data sets, is usually better than training standalone model on descriptors or a training network from scratch: 
-	1. fine-tuning is better than training standalone model on descriptors because it allows to tune all networks parameters and thus extract more effective image representations.
-	2. fine-tuning is better than training network from scratch if we have too little data, or if the text we are solving is similar to the text model was trained on.
 		
 ## Final Project Description

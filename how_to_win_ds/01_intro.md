@@ -122,8 +122,8 @@
 * Feature extraction from text and images
 	1. Texts
 		a. Preprocessing
-i. Lowercase, stemming, lemmarization, stopwords b.Bag of words
-i. Huge vectors
+			i. Lowercase, stemming, lemmarization, stopwords b.Bag of words
+			i. Huge vectors
 ii. Ngrams can help to use local context
 iii. TFiDF can be of use as postprocessing
 c. Word2vec
@@ -134,5 +134,11 @@ a. Features can be extracted from different layers
 b. Careful choosing of pretrained network can help
 c. Finetuning allows to refine pretrained models
 d. Data augmentation can improve the model
+
+* Descriptors (i.e., outputs from inner layers) from later layers are better way to solve texts similar to one network was trained on. In contrary, descriptors from early layers have more text independent information. 
+
+* Fine-tuning (i.e.,  process of pre-trained model tuning), especially for small data sets, is usually better than training standalone model on descriptors or a training network from scratch: 
+	1. fine-tuning is better than training standalone model on descriptors because it allows to tune all networks parameters and thus extract more effective image representations.
+	2. fine-tuning is better than training network from scratch if we have too little data, or if the text we are solving is similar to the text model was trained on.
 		
 ## Final Project Description

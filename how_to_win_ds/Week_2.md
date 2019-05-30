@@ -1,9 +1,21 @@
 # Exploratory Data Analysis
 ## Exploratory data analysis
-* Get domain knowledge
-* Check if the data is intuitive
-* Understand how the data was generated
 
+* With EDA we can: 1）get comfortable with the data and 2) find magic features. Do EDA first. Do not immediately dig into modelling.
+
+* In order to build intuition about the data, we should:
+
+	* Get domain knowledge – It helps to deeper understand the problem
+	* Check if the data is intuitive – And agrees with domain knowledge
+	* Understand how the data was generated – As it is crucial to set up a proper validation
+	
+* Two things to do with anonymized features:
+
+	1. Try to decode the features: guess the true meaning of the feature
+	2. Guess the feature types: each type needs its own preprocessing
+	
+
+# By Dorian
 ## EDA examples
 * Try to decode the features
 * Guess the feature types

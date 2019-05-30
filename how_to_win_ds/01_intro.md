@@ -121,19 +121,20 @@
 	
 * Feature extraction from text and images
 	1. Texts
-		a. Preprocessing
-			i. Lowercase, stemming, lemmarization, stopwords b.Bag of words
+		a. Preprocessing: 
+			i. Lowercase, stemming, lemmarization, stopwords 
+		b.Bag of words
 			i. Huge vectors
-ii. Ngrams can help to use local context
-iii. TFiDF can be of use as postprocessing
-c. Word2vec
-i. Relatively small vectors
-ii. Pretrained models
-2. Images
-a. Features can be extracted from different layers
-b. Careful choosing of pretrained network can help
-c. Finetuning allows to refine pretrained models
-d. Data augmentation can improve the model
+			ii. Ngrams can help to use local context
+			iii. TFiDF can be of use as postprocessing
+		c. Word2vec
+			i. Relatively small vectors
+			ii. Pretrained models
+	2. Images
+		a. Features can be extracted from different layers
+		b. Careful choosing of pretrained network can help
+		c. Finetuning allows to refine pretrained models
+		d. Data augmentation can improve the model
 
 * Descriptors (i.e., outputs from inner layers) from later layers are better way to solve texts similar to one network was trained on. In contrary, descriptors from early layers have more text independent information. 
 

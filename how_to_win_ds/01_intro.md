@@ -94,5 +94,13 @@
 	* Binary feature “isnull” can be beneficial
 	* In general, avoid filling nans before feature generation
 	* Xgboost can handle NaN
-	
+
+* Feature extraction from text and images: the main goal of post-processing here is 
+	1. to make samples more comparable on one side, using term frequency: 
+		* tf = 1 / x.sum(axis=1) [:,None]
+		* x = x * tf
+	2.  to boost more important features while decreasing the scale of useless ones, using inverse document frequency:
+		* idf = np.log(x.shape[0] / (x > 0).sum(0)) 
+		* x = x * idf
+		
 ## Final Project Description

@@ -117,5 +117,6 @@
 		* Relatively small vectors
 		* Values in vector can be interpreted only in some cases
 		* The words with similar meaning often have similar embeddings
+	* Rule of thumb: usually, both Bag of Words and Word2vec approaches give quite different results and can be used together in your solution.
 		
 ## Final Project Description

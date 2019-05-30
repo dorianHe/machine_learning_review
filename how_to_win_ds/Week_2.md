@@ -13,6 +13,21 @@
 
 	1. Try to decode the features: guess the true meaning of the feature
 	2. Guess the feature types: each type needs its own preprocessing
+
+* Explore individual features
+	
+	* Histogram
+	* Plot(index vs. value)
+	* Statistics
+
+* Explore feature relations
+	
+	* Pairs
+		* Scatter plot, scatter matrix
+		* Corrplot
+	* Groups
+		* Corrplot + clustering
+		* Plot (index vs feature statistics)
 	
 
 # By Dorian

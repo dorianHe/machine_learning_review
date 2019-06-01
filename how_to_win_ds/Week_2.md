@@ -28,6 +28,16 @@
 	* Groups
 		* Corrplot + clustering
 		* Plot (index vs feature statistics)
+		
+## Validation
+* Notes on validation: 
+	* Validation helps us evaluate a quality of the model
+	* Validation helps us select the model which will perform best on the unseen data
+	* Underfitting refers to not capturing enough patterns in the data
+	* Generally, overfitting refers to
+		* capturing noize
+		* capturing patterns which do not generalize to test data
+	* In competitions, overfitting refers to low model’s quality on test data, which was unexpected due to validation scores
 	
 
 # By Dorian

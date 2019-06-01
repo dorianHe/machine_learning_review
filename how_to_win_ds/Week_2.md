@@ -34,6 +34,7 @@
 ## EDA examples
 * Try to decode the features
 * Guess the feature types
+* Check the notebook on this [link](https://jokkzswedqbueyrtgrujqn.coursera-apps.org/notebooks/readonly/reading_materials/EDA_Springleaf_screencast.ipynb).
 
 helpful functions can be:
 * df.dtypes

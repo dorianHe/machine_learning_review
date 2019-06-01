@@ -38,7 +38,15 @@
 		* capturing noize
 		* capturing patterns which do not generalize to test data
 	* In competitions, overfitting refers to low model’s quality on test data, which was unexpected due to validation scores
-	
+
+
+* Validation strategies
+
+	* There are three main validation strategies:
+		1. Holdout
+		2. KFold 
+		3. LOO
+	* Stratification preserve the same target distribution over different folds
 
 # By Dorian
 ## EDA examples

@@ -61,6 +61,26 @@
 	* Logic of feature generation depends on the data splitting strategy
 	* Set up your validation to mimic the train/test split of the competition
 
+To be edited ----
+• If we have big dispersion of scores on validation stage, we should do extensive validation
+– Average scores from different KFold splits
+– Tune model on one split, evaluate score on the other
+• If submission’s score do not match local validation score,
+we should
+– Check if we have too little data in public LB – Check if we overfitted
+– Check if we chose correct splitting strategy – Check if train/test have different distibutions
+• Expect LB shuffle because of
+– Randomness
+– Little amount of data
+– Different public/private distributions
+
+Summary
+1. Defined validation and its connection to overfitting
+2. Described common validation strategies
+3. Demonstrated major data splitting strategies
+4. Analysed and learn how to tackle main validation
+problems
+
 # By Dorian
 ## EDA examples
 * Try to decode the features

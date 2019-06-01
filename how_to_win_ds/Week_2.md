@@ -48,6 +48,19 @@
 		3. LOO
 	* Stratification preserve the same target distribution over different folds
 
+* Different splitting strategies
+	* Different splitting strategies can differ significantly
+		1. in generated features
+		2. in a way the model will rely on that features
+		3. in some kind of target leak
+
+	* In most cases data is split by 
+		* Rownumber
+		* Time
+		* Id
+	* Logic of feature generation depends on the data splitting strategy
+	* Set up your validation to mimic the train/test split of the competition
+
 # By Dorian
 ## EDA examples
 * Try to decode the features
